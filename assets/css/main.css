@@ -2704,7 +2704,7 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: rgba(1, 0, 0, 0.075);
 		}
 
 		.spotlight:nth-child(2) {
@@ -3998,3 +3998,4 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+

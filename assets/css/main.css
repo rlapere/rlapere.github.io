@@ -2978,6 +2978,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: #ce44d9;
+			color: #ce44d9;
 		}
 
 		.wrapper.style3 {
@@ -3998,6 +3999,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 

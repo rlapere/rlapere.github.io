@@ -3353,7 +3353,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #ffffff; /*RLA - couleur menu*/
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3447,7 +3447,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #ffffff; /*RLA - couleur du header*/
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3999,6 +3999,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 

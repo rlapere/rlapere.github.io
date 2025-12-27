@@ -144,7 +144,7 @@
 
 								<section>
 									<h4>Formulaire de contact</h4>
-									<form method="post" action="#">
+									<form method="post">
 										<div class="row gtr-uniform">
 											<div class="col-4 col-12-xsmall">
 												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Votre nom" />
@@ -197,9 +197,9 @@
 									</form>
 								    <?php
     								if (isset($_POST['message'])) {
-        							$retour = mail('remy.lapere.ensta@gmail.com', 'Contact Shiatsu', $_POST['message'], '');
-        							if($retour)
-            						echo '<p>Votre message a bien été envoyé.</p>';
+        								$retour = mail('remy.lapere.ensta@gmail.com', 'Contact Shiatsu', $_POST['message'], '');
+        								if($retour)
+            								echo '<p>Votre message a bien été envoyé.</p>';
 								    }
 								    ?>	
 								</section>
@@ -234,6 +234,7 @@
 	</body>
 
 </html>
+
 
 
 

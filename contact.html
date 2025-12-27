@@ -145,7 +145,7 @@
 
 								<section>
 									<h4>Formulaire de contact</h4>
-									<form method="post">
+									<form method="post" action="mail.php">
 										<div class="row gtr-uniform">
 											<div class="col-4 col-12-xsmall">
 												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Votre nom" />
@@ -191,18 +191,10 @@
 											<div class="col-12">
 												<ul class="actions">
 													<li><input type="submit" value="Envoyer votre message" class="primary" /></li>
-													<li><input type="reset" value="Réinitialiser" /></li>
 												</ul>
 											</div>
 										</div>
 									</form>
-								    <?php
-    								if (isset($_POST['message'])) {
-        								$retour = mail('remy.lapere.ensta@gmail.com', 'Contact Shiatsu', $_POST['message'], '');
-        								if($retour)
-            								echo '<p>Votre message a bien été envoyé.</p>';
-								    }
-								    ?>	
 								</section>
 
 							</div>
@@ -235,6 +227,7 @@
 	</body>
 
 </html>
+
 
 
 

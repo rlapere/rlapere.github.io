@@ -2079,7 +2079,7 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: #578b9a; /*#00ffcc; RLA*/
 		}
 
 		.icon.style2 {
@@ -3999,6 +3999,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 

@@ -2084,11 +2084,11 @@ input, select, textarea {
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: #578b9a; /* #00f0ff; */
 		}
 
 		.icon.style3 {
-			color: #76ddff;
+			color: #578b9a; /*#76ddff;*/
 		}
 
 /* Image */
@@ -4000,6 +4000,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
